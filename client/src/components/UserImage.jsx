@@ -1,4 +1,6 @@
 import { Box } from "@mui/material"
+import React from 'react'
+
 
 const UserImage = ({ image, size="60px"}) => {
     return (
