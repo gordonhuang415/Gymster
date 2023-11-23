@@ -48,7 +48,7 @@ const initialValuesLogin = {
 };
 
 const Form = () => {
-  const [pageType, setPageType] = useState("");
+  const [pageType, setPageType] = useState("login");
   const { palette } = useTheme();
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -63,7 +63,6 @@ const Form = () => {
       formData.append(value, values[value]);
     }
     formData.append("picturePath", values.picture.name);
-    console.log(values)
 
     const savedUserResponse = await fetch(
       "http://localhost:3001/auth/register",
@@ -164,7 +163,7 @@ const Form = () => {
                   sx={{ gridColumn: "span 4" }}
                 />
                 <TextField
-                  label="sport"
+                  label="Sport"
                   onBlur={handleBlur}
                   onChange={handleChange}
                   value={values.sport}

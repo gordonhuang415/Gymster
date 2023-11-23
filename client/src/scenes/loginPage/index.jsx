@@ -1,7 +1,6 @@
+import React from 'react';
 import { Box, Typography, useTheme, useMediaQuery } from "@mui/material";
 import Form from "./Form";
-import React from 'react';
-
 
 const LoginPage = () => {
   const theme = useTheme();
@@ -15,7 +14,7 @@ const LoginPage = () => {
         textAlign="center"
       >
         <Typography fontWeight="bold" fontSize="32px" color="primary">
-          Lifter
+          Sociopedia
         </Typography>
       </Box>
 
@@ -27,7 +26,7 @@ const LoginPage = () => {
         backgroundColor={theme.palette.background.alt}
       >
         <Typography fontWeight="500" variant="h5" sx={{ mb: "1.5rem" }}>
-          Welcome to Lifter, the Social Media for gym enthusiasts!
+          Welcome to Socipedia, the Social Media for Sociopaths!
         </Typography>
         <Form />
       </Box>
