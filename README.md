@@ -18,3 +18,10 @@ Gymster is a full stack, responsive social media app that uses the MERN stack (M
 - Mongoose - Manage Mongo database
 - JWT (Json Web Token) - Authentication 
 - Multer - For file upload 
+
+### **Startup**
+- Fork the project
+- Clone the project
+- 
+- Run 'npm run start' in the terminal of the client directory
+- In a second terminal run 'npm run start' in the server directory

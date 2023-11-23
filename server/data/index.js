@@ -142,28 +142,8 @@ export const users = [
   },
 ];
 
-export const posts = [
-  {
-    _id: new mongoose.Types.ObjectId(),
-    userId: userIds[1],
-    firstName: "Steve",
-    lastName: "Ralph",
-    location: "New York, CA",
-    description: "Getting some micronurtients in!",
-    picturePath: "post1.jpeg",
-    userPicturePath: "p3.jpeg",
-    likes: new Map([
-      [userIds[0], true],
-      [userIds[2], true],
-      [userIds[3], true],
-      [userIds[4], true],
-    ]),
-    comments: [
-      "random comment",
-      "another random comment",
-      "yet another random comment",
-    ],
-  },
+export const posts = [ 
+  
   {
     _id: new mongoose.Types.ObjectId(),
     userId: userIds[3],
@@ -172,7 +152,7 @@ export const posts = [
     location: "Korea, CA",
     description:
       "Another day of deadlifting",
-    picturePath: "deadlift.jpeg",
+    picturePath: "deadlift.png",
     userPicturePath: "p6.jpeg",
     likes: new Map([
       [userIds[7], true],
@@ -195,7 +175,7 @@ export const posts = [
     location: "Utah, CA",
     description:
       "Finally using these adjustable dumbells!",
-    picturePath: "adjust.jpeg",
+    picturePath: "adjust.png",
     userPicturePath: "p5.jpeg",
     likes: new Map([
       [userIds[1], true],
@@ -219,7 +199,7 @@ export const posts = [
     location: "Los Angeles, CA",
     description:
       "Finally got new plates.",
-    picturePath: "plates.jpeg",
+    picturePath: "plates.png",
     userPicturePath: "p7.jpeg",
     likes: new Map([
       [userIds[1], true],
@@ -243,7 +223,7 @@ export const posts = [
     location: "Chicago, IL",
     description:
       "Time to dust off the old hex bar.",
-    picturePath: "hex.jpeg",
+    picturePath: "hex.png",
     userPicturePath: "p8.jpeg",
     likes: new Map([
       [userIds[1], true],
@@ -280,6 +260,27 @@ export const posts = [
       "Never mind, I'm going to play video games",
       "Stop it.",
       "Michael, stop it.",
+    ],
+  },
+  {
+    _id: new mongoose.Types.ObjectId(),
+    userId: userIds[1],
+    firstName: "Steve",
+    lastName: "Ralph",
+    location: "New York, CA",
+    description: "Getting some micronurtients in!",
+    picturePath: "salad.jpeg",
+    userPicturePath: "p3.jpeg",
+    likes: new Map([
+      [userIds[0], true],
+      [userIds[2], true],
+      [userIds[3], true],
+      [userIds[4], true],
+    ]),
+    comments: [
+      "random comment",
+      "another random comment",
+      "yet another random comment",
     ],
   },
 ];
